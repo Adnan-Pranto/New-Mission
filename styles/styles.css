@@ -40,7 +40,50 @@ h5 {
     align-items: center;
     margin: 20px 0px;
 }
-
+ /* 1st banner part  */
+ .First-banner, .second-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../resources/Banner\ Image.png');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ .First-banner>h1{
+    font-size: 72px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 190px;
+    margin: 5px;
+ }
+ .First-banner>p{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 32px;
+    margin: 10px;
+ }
+    /* 2nd bacukround image + inner img */
+    .second-banner{
+        background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../resources/Vectorrr.png');
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 600px;
+    }
+    .midnight-party> button{
+        background-color: none;
+        font-size: 20px;
+        padding: 30px;
+        color: white;
+        background-color: rgba(0, 0, 0, .05);
+        border: 0;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: aqua;
+    }
+    .midnight-party> h1{
+        font-size: 64px ;
+        /* font-weight: ; */
+    }
 /* discount section  */
 .discount{
     text-align: center;
