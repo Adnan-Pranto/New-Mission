@@ -160,6 +160,12 @@ h5 {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: red;
+    font-size: 28px;
+}
 
 .mail-section>input {
     width: 420px;
