@@ -1,0 +1,153 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header,
+main,
+footer>section {
+    margin: 60px 100px;
+}
+
+/* common css  */
+h3 {
+    font-size: 48px;
+}
+.discount> h1{
+    font-size: 88px;
+}
+h5 {
+    font-size: 24px;
+}
+
+.color-red {
+    color: #FF0000;
+}
+
+.gray-txt {
+    color: rgb(86, 85, 85);
+    font: 20px;
+}
+
+.product-img,
+.bonus-part,
+.footer-1st,
+.footer-lst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+/* discount section  */
+.discount{
+    text-align: center;
+    margin: 120px auto;
+}
+.discount>h3, .discount>h5,
+.image-container>h4 , .image-container>h3{
+    margin: 10px auto;
+}
+.discount> img {
+    margin-top: 40px;
+}
+ /* New park hotel Time & place  */
+ .join-now{
+    background-image: linear-gradient(rgb(248, 220, 209), rgb(255, 255, 255));
+    height: 500px;
+    margin: 100px 0px;
+ }
+ .hotel-park{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 32px;
+    font-weight: 700;
+ }
+ .btn-primary{
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 45px;
+    width: 150px;
+    font-size: 21px;
+ }
+/* // bonus section  */
+.bonus-part>div {
+    /* border: 5px solid yellow; */
+    margin-right: 100px;
+    width: 50%;
+}
+.round-img>img{
+    padding: 50px;
+    border: 15px solid red;
+    border-radius: 250px;
+}
+
+/* ///Subscribe Section. ...  */
+.Subscribe {
+    text-align: center;
+    margin-top: 150px;
+    background-color: antiquewhite;
+    height: 620px;
+    padding-top: 120px;
+}
+
+.mail-section, .image-container {
+    margin-top: 40px;
+}
+
+.mail-section>button,
+.mail-section>input {
+    /* height: 75px; */
+    padding: 30px;
+    font-size: 20px;
+    border: 0;
+}
+
+.mail-section>button {
+    background-color: red;
+    color: white;
+    width: 210px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.mail-section>input {
+    width: 420px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+/* Footer section   */
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    height: 620px;
+}
+
+.img-icon>p>img {
+
+    margin-right: 15px;
+}
+
+footer>section>div>div>p,
+.footer-lst>p {
+    font-size: 22px;
+}
+
+.footer-2nd {
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1.5px solid rgb(78, 77, 77);
+    border-bottom: 1.5px solid rgb(78, 77, 77);
+
+}
+
+.footer-2nd>img {
+    margin-right: 25px;
+    margin: 60px 10px;
+}
