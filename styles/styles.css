@@ -1,5 +1,5 @@
 * {
-    font-family: "Work Sans", sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -28,7 +28,7 @@ h5 {
 
 .gray-txt {
     color: rgb(86, 85, 85);
-    font: 20px;
+    font: 21px;
 }
 
 .product-img,
@@ -60,7 +60,10 @@ h5 {
     font-size: 32px;
     margin: 10px;
  }
-    /* 2nd bacukround image + inner img */
+ .bonus-part{
+    margin-bottom: 150px;
+ }
+    /* 2nd background image + inner img */
     .second-banner{
         background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../resources/Vectorrr.png');
         display: flex;
@@ -73,7 +76,7 @@ h5 {
         font-size: 20px;
         padding: 30px;
         color: white;
-        background-color: rgba(0, 0, 0, .05);
+        background-color: rgba(0, 0, 0, 0);
         border: 0;
     }
     button:hover{
@@ -82,8 +85,8 @@ h5 {
     }
     .midnight-party> h1{
         font-size: 64px ;
-        /* font-weight: ; */
     }
+
 /* discount section  */
 .discount{
     text-align: center;
@@ -119,7 +122,6 @@ h5 {
  }
 /* // bonus section  */
 .bonus-part>div {
-    /* border: 5px solid yellow; */
     margin-right: 100px;
     width: 50%;
 }
@@ -133,7 +135,8 @@ h5 {
 .Subscribe {
     text-align: center;
     margin-top: 150px;
-    background-color: antiquewhite;
+    margin-bottom:100px;
+    background-color:rgb(249, 228, 229);
     height: 620px;
     padding-top: 120px;
 }
@@ -175,6 +178,9 @@ footer {
 .img-icon>p>img {
 
     margin-right: 15px;
+}
+.img-icon{
+    margin-left: 550px;
 }
 
 footer>section>div>div>p,
